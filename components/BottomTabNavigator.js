@@ -18,29 +18,16 @@ export default class BottomTabNavigator extends Component {
             tabBarIcon: ({ focused, color, size }) => {
               let iconName;
 
-              //if (route === "Alugue uma Bicicleta") {
-              // iconName = "bicycle";
-              //} else if (route === "Histórico de Locações") {
-              //  iconName = "time";
-              //}
+             
 
-              //if (route.name = "Alugue uma Bicicleta") {
-              // iconName = "bicycle";
-              //} else if (route.name = "Histórico de Locações") {
-              //  iconName = "time";
-              //}
+             
 
-              //if (route.name === Alugue uma Bicicleta) {
-              // iconName = "bicycle";
-              //} else if (route.name === Histórico de Locações) {
-              //  iconName = "time";
-              //}
-
-              //if (route.name === "Alugue uma Bicicleta") {
-              // iconName = "bicycle";
-              //} else if (route.name === "Histórico de Locações") {
-              //  iconName = "time";
-              //}
+              
+              if (route.name === "Alugue uma Bicicleta") {
+               iconName = "bicycle";
+              } else if (route.name === "Histórico de Locações") {
+                iconName = "time";
+              }
 
               // You can return any component that you like here!
               return (
